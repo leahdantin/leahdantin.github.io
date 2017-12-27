@@ -1,6 +1,12 @@
-
+/*heading styles*/
     h1 {
     font-family: "Arial", sans-serif;
     color:#F4FFF8;
-    background-color: #4D4847;
+    background-color: #000f08;
+}
+
+
+/*table*/
+table {
+    background-color: #4D4847
 }
