@@ -18,6 +18,7 @@ table {
 tr {
     font-family:"Cambria", serif;
     color:#F4FFF8;
+    text-align: center;
 }
 /*unvisited link*/
 a:link {
