@@ -8,6 +8,7 @@
 
     h2 {
         font-family: "Arial", sans-serif;
+        font-size: 40pt
         color:#4D4847;
     }
 
@@ -18,6 +19,7 @@ table {
 
 tr {
     font-family:"Cambria", serif;
+    font-size: 30pt
     color:#F4FFF8;
     text-align: center;
 }
@@ -26,6 +28,7 @@ a:link {
     color: #F4FFF8;
     text-decoration: none;
     font-family:"Cambria", serif;
+    font-size: 30pt
 }
 
 /*visited link*/
@@ -33,6 +36,7 @@ a:visited {
     color: #F4FFF8;
     text-decoration: none;
     font-family:"Cambria", serif;
+    font-size: 30pt
 }
 
 /*mouse over link*/
@@ -40,11 +44,13 @@ a:hover {
     color: #BE7C4D;
     text-decoration: none;
     font-family:"Cambria", serif;
+    font-size: 30pt
 }
 
 /*selected link*/
 a:active {
     color:#BE7C4D;
     text-decoration: none;
-    font-family:"Cambria", serif;
+    font-family:"Cambria", serif
+    font-size: 30pt
 }
