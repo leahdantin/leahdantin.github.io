@@ -19,22 +19,26 @@ tr {
 a:link {
     color: #F4FFF8;
     text-decoration: none;
+    font-family:"Cambria", serif;
 }
 
 /*visited link*/
 a:visited {
     color: #F4FFF8;
     text-decoration: none;
+    font-family:"Cambria", serif;
 }
 
 /*mouse over link*/
 a:hover {
     color: #BE7C4D;
     text-decoration: none;
+    font-family:"Cambria", serif;
 }
 
 /*selected link*/
 a:active {
     color:#BE7C4D;
     text-decoration: none;
+    font-family:"Cambria", serif;
 }
