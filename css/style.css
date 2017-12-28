@@ -18,19 +18,23 @@ tr {
 /*unvisited link*/
 a:link {
     color: #F4FFF8;
+    text-decoration: none;
 }
 
 /*visited link*/
 a:visited {
     color: #F4FFF8;
+    text-decoration: none;
 }
 
 /*mouse over link*/
 a:hover {
     color: #BE7C4D;
+    text-decoration: none;
 }
 
 /*selected link*/
 a:active {
     color:#BE7C4D;
+    text-decoration: none;
 }
