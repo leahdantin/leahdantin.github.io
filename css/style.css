@@ -5,6 +5,10 @@
     background-color: #000f08;
 }
 
+    h2 {
+        font-family: "Arial", sans-serif;
+        color:#4D4847;
+    }
 
 /*table*/
 table {
