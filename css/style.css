@@ -12,27 +12,26 @@
         color:#4D4847;
 }
 
-/* The navbar container */
-    .menu {
-        overflow: hidden;
-        background-color: #4D4847;
-    }
-
-/* Navbar links */
-    .menu a {
-        float: center;
-        display: block;
-        color: #F4FFF8;
-        text-align: center;
-        padding: 14px 16px;
-        text-decoration: none;
-        background-color: #4D4847;
+/* Style the top navigation bar */
+.topnav {
+    overflow: hidden;
+    background-color: #4D4847;
 }
 
-/* Links - change color on hover */
-    .topnav a:hover {
-        background-color: #BE7C4D;
-        color: #F4FFF8;
+/* Style the topnav links */
+.topnav a {
+    float: center;
+    display: block;
+    color: #F4FFF8;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+    background-color: #BE7C4D;
+    color: #F4FFF8;
 }
 /*table*/
 table {
