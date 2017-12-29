@@ -59,3 +59,9 @@ a:active {
     font-family:"Cambria", serif
     font-size: 30pt
 }
+
+/*footer*/
+.footer {
+    text-align: center;
+    padding: 10px;
+}
