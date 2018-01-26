@@ -49,7 +49,25 @@
     </nav>
 <body>
     <embed src="https://leahdantin.github.io/resumeleah.pdf" width="100%" height="700" type='application/pdf'>
+        <button onclick="myFunction('Demo1')" class="w3-btn w3-block w3-black w3-left-align">Open Section 1</button>
+        <div id="Demo1" class="w3-container w3-hide">
+          <h4>Section 1</h4>
+          <p>Some text..</p>
+        </div>
+
+        </div>
+        <script>
+        function myFunction(id) {
+            var x = document.getElementById(id);
+            if (x.className.indexOf("w3-show") == -1) {
+                x.className += " w3-show";
+            } else {
+                x.className = x.className.replace(" w3-show", "");
+            }
+        }
+        </script>
 </body>
     <footer>
+
         Leah Dantin &#8226; Ponte Vedra High School &#8226; Future Business Leaders of America
     </footer>
