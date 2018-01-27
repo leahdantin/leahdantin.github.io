@@ -1,0 +1,86 @@
+/*heading styles*/
+    h1 {
+        font-family: "Arial", sans-serif;
+        font-size: 70pt;
+        color:#F4FFF8;
+        background-color: #000f08;
+        margin-left:0px;
+        margin-right:0px;
+        margin-top:0px;
+        margin-bottom:0px;
+        Padding-left:0px;
+        padding-right:0px;
+        padding-top:0px;
+        padding-bottom:0px;
+}
+
+    h2 {
+        font-family: "Arial", sans-serif;
+        font-size: 40pt
+        color:##F4FFF8;
+}
+
+    h3 {
+        font-family: "Arial", sans-serif;
+        font-size: 20pt;
+        color:#F4FFF8;
+    }
+
+/*body*/
+
+body{
+    background-color: #000f08;
+    color:#F4FFF8;
+    font-family: "arial", sans-serif;
+    font-size: 16pt;
+}
+
+/*table*/
+
+table {
+    background-color: #4D4847;
+}
+
+tr {
+    font-family:"Cambria", serif;
+    font-size: 30pt
+    color:#F4FFF8;
+    text-align: center;
+}
+/*unvisited link*/
+a:link {
+    color: #BE7C4D;
+    text-decoration: none;
+    font-family:"Cambria", serif;
+    font-size: 30pt
+}
+
+/*visited link*/
+a:visited {
+    color: #BE7C4D;
+    text-decoration: none;
+    font-family:"Cambria", serif;
+    font-size: 30pt
+}
+
+/*mouse over link*/
+a:hover {
+    color: #BE7C4D;
+    text-decoration: none;
+    font-family:"Cambria", serif;
+    font-size: 30pt
+}
+
+/*selected link*/
+a:active {
+    color:#BE7C4D;
+    text-decoration: none;
+    font-family:"Cambria", serif
+    font-size: 30pt
+}
+
+/*footer*/
+footer {
+    text-align: center;
+    padding: 10px;
+}
