@@ -1,19 +1,16 @@
-<!doctype html>
+<!Doctype html>
 <html>
     <head>
         <title>
-            Technology Career
+            Leah Dantin
         </title>
         <link rel= "stylesheet" type="text/css" href="css/style.css" />
         <link rel="icon"
       type="image/png"
       href="ldfavicon.png" />
-        <style>
-        img {
-            align: middle;
-        }
-        </style>
     </head>
+
+
     <h1 class="h1">
         <img src=ldfavicon.png width=80px height=80%>
         Leah
@@ -24,31 +21,91 @@
         <a href=mailto:leahdantin@yahoo.com>
             <img src=email.png alt="Email:leahbdantin@gmail.com" width=50px height=26.46px align=right>
         </a>
-        <a href=call:9046314431>
+        <a href=tel:9046314431>
             <img src=phone.png alt="Phone: 9046314431" align=right width=30px height=50px>
         </a>
     </h1>
 
     <nav>
-        <table style= "width:100%" "height:200px">
-            <tr>
-                <td>
-                    <a href="index.html">Home</a>
-                </td>
-                <td>
-                    <a href="resume.html">Resume</a>
-                </td>
-                <td>
-                    <a href="about.html">Education</a>
-                </td>
-                <td>
-                    <a href="career.html">Career</a>
-                </td>
+        <style>
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #4D4847;
+            color: #F4FFF8;
+        }
 
-            </tr>
-        </table>
+        li {
+            float: left;
+            color: #F4FFF8;
+        }
+
+        li a, .dropbtn {
+            display: inline-block;
+            color: #F4FFF8;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            color: #BE7C4D;
+        }
+
+        li a:hover, .dropdown:hover .dropbtn {
+            background-color: #F4FFF8;
+            color: #BE7C4D;
+        }
+
+        li.dropdown {
+            display: inline-block;
+            color: #BE7C4D
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #F4FFF8;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+        }
+
+        .dropdown-content a {
+            color: #BE7C4D
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+            text-align: left;
+        }
+
+        .dropdown-content a:hover {background-color: #4D4847}
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+            </style>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li class="dropdown">
+            <a href="me.html" class="dropbtn">About Leah</a>
+            <div class="dropdown-content">
+              <a href="resume.html">Resume</a>
+              <a href="skills.html">Skills and Certifications</a>
+            </div>
+            <li class="dropdown">
+              <a href="career.html" class="dropbtn">Career</a>
+              <div class="dropdown-content">
+                <a href="educ.html">Education</a>
+                <a href="fut.html">Future Opportunities</a>
+                <a href="about.html">Connection to Leah</a>
+              </div>
+          </li>
+        </ul>
+
 
     </nav>
+
+    
 <h2 class=h2>
     Sources
 </h2>
