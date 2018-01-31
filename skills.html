@@ -103,4 +103,76 @@ li.dropdown {
   </li>
 </ul>
 
+
+<style>
+.container {
+  position: relative;
+  width: 300px;
+}
+
+.image {
+  display: block;
+  width: 300px;
+  height: auto;
+  padding-left: 15px;
+  padding-top: 15px;
+}
+
+.overlay {
+  position: absolute;
+  top: 15px;
+  bottom: 0;
+  left: 15px;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #BE7C4D;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: #F4FFF8;
+  font-size: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+</style>
+</head>
+<body>
+
+
+
+
+<div class="container">
+  <img src="wordmic.png" alt="Microsoft Word Specialist"  class="image">
+  <div class="overlay">
+    <div class="text">Certified in Microsoft Word 2016</div>
+  </div>
+</div>
+
+<div class="container">
+  <img src="exc.png" alt="Microsoft Excel Specialist"  class="image">
+  <div class="overlay">
+    <div class="text">Certified in Microsoft Excel 2016</div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
     </nav>
