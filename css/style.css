@@ -17,32 +17,40 @@
     h2 {
         font-family: "Arial", sans-serif;
         font-size: 40pt
-        color:##F4FFF8;
+        color:black;
 }
 
     h3 {
         font-family: "Arial", sans-serif;
         font-size: 20pt;
-        color:#F4FFF8;
+        color: black;
     }
 
 /*body*/
 
 body{
-    background-color: #000f08;
-    color:#F4FFF8;
+    background-color: white;
+    color: black;
     font-family: "arial", sans-serif;
     font-size: 16pt;
+    margin-left:0px;
+    margin-right:0px;
+    margin-top:0px;
+    margin-bottom:0px;
+    Padding-left:0px;
+    padding-right:0px;
+    padding-top:0px;
+    padding-bottom:0px;
 }
 
 /*table*/
 
 table {
-    background-color: #4D4847;
+    background-color: black;
 }
 
 tr {
-    font-family:"Cambria", serif;
+    font-family:"arial", sans-serif;
     font-size: 30pt
     color:#F4FFF8;
     text-align: center;
@@ -52,7 +60,7 @@ tr {
 a:link {
     color: #BE7C4D;
     text-decoration: none;
-    font-family:"Cambria", serif;
+    font-family:"arial", sans-serif;
     font-size: 30pt
 }
 
@@ -60,7 +68,7 @@ a:link {
 a:visited {
     color: #BE7C4D;
     text-decoration: none;
-    font-family:"Cambria", serif;
+    font-family:"arial", sans-serif;
     font-size: 30pt
 }
 
@@ -68,7 +76,7 @@ a:visited {
 a:hover {
     color: #BE7C4D;
     text-decoration: none;
-    font-family:"Cambria", serif;
+    font-family:"arial", sans-serif;
     font-size: 30pt
 }
 
@@ -76,7 +84,7 @@ a:hover {
 a:active {
     color:#BE7C4D;
     text-decoration: none;
-    font-family:"Cambria", serif
+    font-family: "arial", sans-serif;
     font-size: 30pt
 }
 
@@ -87,17 +95,17 @@ ul {
     padding: 0;
     overflow: hidden;
     background-color: #4D4847;
-    color: #F4FFF8;
+    color: white;
 }
 
 li {
     float: left;
-    color: #F4FFF8;
+    color: black;
 }
 
 li a, .dropbtn {
     display: inline-block;
-    color: #F4FFF8;
+    color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -105,7 +113,7 @@ li a, .dropbtn {
 }
 
 li a:hover, .dropdown:hover .dropbtn {
-    background-color: #F4FFF8;
+    background-color: black;
     color: #BE7C4D;
 }
 
@@ -117,14 +125,14 @@ li.dropdown {
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #F4FFF8;
+    background-color: black;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.7);
     z-index: 1;
 }
 
 .dropdown-content a {
-    color: #BE7C4D
+    color: #BE7C4D;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
@@ -134,6 +142,10 @@ li.dropdown {
 .dropdown-content a:hover {background-color: #4D4847}
 
 .dropdown:hover .dropdown-content {
+    display: block;
+}
+/*captions for img*/
+figcaption {
     display: block;
 }
 
