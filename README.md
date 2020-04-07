@@ -1,5 +1,3 @@
 # leahdantin.github.io
-Leah Dantin's Page
+Leah Dantin's Career Portfolio
 
-
-The Electronic Career Portfolio for FBLA 2018
